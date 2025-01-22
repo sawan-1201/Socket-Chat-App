@@ -6,3 +6,8 @@ Socket IO is an event-driven framework used for bidirectional communication betw
 Approach: We will build a web interface for the user to chat through. We will provide text boxes to the user to provide his name and the message that he wants. Then, through the use of socket.io events in Node JS, we will broadcast the messages using our server and display them in the command line or terminal.
 
 Building a real-time chat app with Socket.io and Node.js is an excellent way to learn full-stack development.
+
+Steps to run the application: Write the below code in the terminal to run the server:
+
+node index.js
+Output: Open your browser and open two tabs with the URL: http://localhost:5000 so that we have two clients that can chat with each other.
